@@ -1,0 +1,595 @@
+@media screen and (min-width: 641px){
+
+.content{
+	width: auto;
+	padding: 0 30px;
+}	
+
+/*--------------------header-----------------------*/
+
+.header_top{
+	padding: 11px 0;
+}
+
+.header_top .phone i{
+	font-size: 10px;
+	line-height: 16px;
+	margin-right: 10px;
+}
+
+.header_top .phone a{
+	font-size:  10px;
+	line-height: 16px;
+}
+
+.header_top ul li a{
+	font-size:  10px;
+	line-height: 16px;
+	padding: 0 20px;
+}
+
+.header_bottom .enter{
+	display: none;
+}
+
+.header_bottom .desc-menu{
+	display: block;
+	position: absolute;
+	top: 15px;
+	left: 30px;
+}
+
+.header_bottom .desc-menu li{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.header_bottom .desc-menu li:last-child{
+	margin-right: 0px;
+}
+
+.header_bottom .desc-menu li:hover a{
+	border: 2px solid #d9bf8f;
+}
+
+.header_bottom .desc-menu li a{
+	font: italic 400 16px'Playfair Display', serif;
+	line-height: 16px;
+	color: #000;
+	padding: 3px;
+	border: 2px solid transparent;
+}
+
+.header_bottom h1{
+	font-size: 60px;
+	padding: 30px 0;
+}
+
+.header_bottom .icons{
+	top: 15px;
+	right: 30px;
+
+}
+
+.header_bottom .icons li{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.header_bottom .icons li a{
+	width: 11px;
+	height: 12px;
+	padding: 6px;
+}	
+
+.header_bottom .icons li a .demo-icon{
+	font-size: 12px;
+	line-height: 12px;
+}
+
+.header_bottom .dropdown {
+	background: #000;
+	position: absolute;
+	margin-bottom: 0px;
+	top: 60px;
+	right: 30px;
+}
+
+.header_bottom .dropdown>li{
+	font-size: 10px;
+	line-height: 14px;
+	padding: 10px;
+}
+
+.header_bottom .dropdown ul{
+	position: absolute;
+	left: 100%;
+	width: 110px;
+	display: block;
+	z-index: 9999;
+	transform: translateX(-100%);
+	-webkit-transition: opacity .2s ease-in-out;
+}
+
+.header_bottom .dropdown ul li{
+	width: 100%;
+	display: block;
+	opacity: 0;
+	background: #000;		
+}
+
+.header_bottom .dropdown a{
+	font-size: 10px;
+	line-height: 14px;
+	display: block;
+	text-align: right;
+	padding: 10px;
+}
+
+/*--------------------end header-----------------------*/
+
+/*---------------------slider---------------------*/
+
+.my_slick .sale .ramka{
+	padding: 8px;
+	border: 4px double #fff;
+	margin-bottom: 20px;
+}
+
+.my_slick .sale h2{
+	font-size: 40px;
+	line-height: 32px;
+	margin: 15px 0;
+}
+
+.my_slick .sale p{
+	font-size: 16px;
+	line-height: 14px;
+	display: block;
+}
+
+.my_slick .sale p:last-of-type{
+	position: relative;
+}
+
+.my_slick .sale p:last-of-type:before{
+	content: "";
+	width: 22px;
+	height: 1px;
+	background-color: white;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	transform: translateY(-50%);
+}
+
+.my_slick .sale p:last-of-type:after{
+	content: "";
+	width: 22px;
+	height: 1px;
+	background-color: white;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	transform: translateY(-50%);
+}
+
+.my_slick .sale p:last-of-type span:before{
+	content: "";
+	width: 12px;
+	height: 2px;
+	background-color: white;
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	transform: translateY(-50%);
+}
+
+.my_slick .sale p:last-of-type span:after{
+	content: "";
+	width: 12px;
+	height: 2px;
+	background-color: white;
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+}
+
+.my_slick .sale h4{
+	font-size: 18px;
+	line-height: 16px;
+	margin-top: 12px;
+}
+
+.my_slick .sale h4 span{
+	font-size: 16px;
+}
+
+.my_slick .sale a{
+	padding: 8px;
+	font-size: 14px;
+	line-height: 12px;
+}
+
+.slick-dots{
+	bottom: 5%;
+}
+
+.slick-dots li{
+	margin-right:  15px;
+}
+
+.slick-dots li button{
+	width: 15px;
+	height: 15px;
+}
+
+/*--------------------end------------------------*/
+
+/*------------anime_line-------------------------*/
+
+.anime_line{
+	padding: 40px 0;
+}
+
+.anime_line i{
+	font-size: 30px;
+}
+
+.anime_line .shipping, .anime_line .support{
+	padding-top: 30px;
+}
+
+.anime_line .return{
+	padding-top: 30px;
+}
+
+.anime_line .return a{
+	text-align: center;
+}
+
+.anime_line a{
+	font-size: 12px;
+	line-height: 12px;
+	height: auto;
+}
+
+.anime_line a:first-of-type{
+	padding-top: 10px;
+	height: 48px;
+}
+
+.anime_line a:last-of-type{
+	padding-bottom: 15px;
+}
+
+.anime_line a span {
+	font-size: 24px;
+	line-height: 24px;
+	text-align: center;
+}
+/*--------------------end------------------------*/
+
+/*---------------section handpicked----------------*/
+.handpicked{
+	padding: 40px 0;
+}
+
+
+.handpicked .content:after{
+	width: 160px;
+}
+
+.handpicked .content:before{
+	width: 160px;
+}
+
+.handpicked .handpicked_title{
+	padding-bottom: 60px;
+}
+
+.handpicked .handpicked_title h3{
+	font-size: 25px;
+	line-height: 22px;
+}
+
+.handpicked .handpicked_title h3:before{
+	width: 12px;
+	height: 12px;
+    left: -25px;
+    margin-top: -6px;
+}
+
+.handpicked .handpicked_title h3:after{
+	width: 12px;
+	height: 12px;
+    right: -25px;
+   	margin-top: -6px;
+}
+
+.picture{
+	position: relative;
+}
+
+.column1{
+	width: 31%;
+	float: left;
+}
+
+.column2{
+	width: 31%;
+	float: right;
+}
+
+.picture .peris{
+	display: block;
+	width: 35.5%;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+/*--------------------end------------------------*/
+
+/*---------------section summer_colection----------------*/
+.summer_colection {
+	padding: 40px 0;
+}
+
+
+.summer_colection .content:after{
+	width: 160px;
+}
+
+.summer_colection .content:before{
+	width: 160px;
+}
+
+..summer_colection .summer_title{
+	padding-bottom: 60px;
+}
+
+.summer_colection .summer_title h3{
+	font-size: 25px;
+	line-height: 22px;
+	max-width: 100%;
+}
+
+.summer_colection .summer_title h3:before{
+	width: 12px;
+	height: 12px;
+    left: -25px;
+    margin-top: -6px;
+}
+
+.summer_colection .summer_title h3:after{
+	width: 12px;
+	height: 12px;
+    right: -25px;
+   	margin-top: -6px;
+}
+
+
+.summer_colection .table{
+	border: 1px solid #eaeaea;
+	padding: 5px 5px 1px 5px;
+}
+
+.summer_colection .table .cell:first-child{
+	width: 24%;
+	float: left;
+}
+
+.summer_colection .table .cell:nth-child(2n+2){
+	width: 24%;
+	float: left;
+}
+
+.summer_colection .table .cell:nth-child(3), .summer_colection .table .cell:nth-child(7){
+	clear: none;
+	width: 24%;
+	float: left;
+}
+
+.summer_colection .table .cell:nth-child(5){
+	clear: both;
+	width: 24%;
+	float: left;
+}
+
+.summer_colection .table .cell{
+	margin-right: 1.33%; 
+}
+
+.summer_colection .table .cell:nth-child(4n+4){
+	margin-right: 0px; 
+}
+
+/*-----------------------end---------------------------*/
+
+/*---------------section our_brand----------------*/
+
+.our_brand {
+	padding: 40px 0;
+}
+
+
+.our_brand .content:after{
+	width: 160px;
+}
+
+.our_brand .content:before{
+	width: 160px;
+}
+
+.our_brand .brand_title{
+	padding-bottom: 60px;
+}
+
+.our_brand .brand_title h3{
+	font-size: 25px;
+	line-height: 22px;
+}
+
+.our_brand .brand_title h3:before{
+	width: 12px;
+	height: 12px;
+    left: -25px;
+    margin-top: -6px;
+}
+
+.our_brand .brand_title h3:after{
+	width: 12px;
+	height: 12px;
+    right: -25px;
+   	margin-top: -6px;
+}
+
+.karusel{
+	padding-bottom: 60px; 
+}
+
+
+/*--------------------end------------------------*/
+
+/*---------------section cstumers----------------*/
+
+.custumers .custumer_title{
+	padding: 40px 0 60px 0;
+}
+
+.custumers .custumer_title:after{
+	border-left: 120px solid transparent;
+	border-right: 120px solid transparent;
+	border-top: 18px solid #fff;
+}
+
+.custumers .custumer_title .content:after{
+	width: 160px;
+}
+
+.custumers .custumer_title .content:before{
+	width: 160px;
+}
+
+.custumers .custumer_title h3{
+	font-size: 25px;
+	line-height: 22px;
+	max-width: 100%;
+}
+
+.custumers .custumer_title h3:before{
+	width: 12px;
+	height: 12px;
+    left: -25px;
+    margin-top: -6px;
+}
+
+.custumers .custumer_title h3:after{
+	width: 12px;
+	height: 12px;
+    right: -25px;
+   	margin-top: -6px;
+}
+
+.fashion_stylish, .designer{
+	width: 50%;
+	float: left;
+	margin-top: 50px;
+}
+
+.custumers .people .about p{
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.custumers .people .about h5{
+	font-size: 22px ;
+	line-height: 21px;
+	height: 44px;
+}
+
+.custumers .people .about h6{
+	font-size: 12px;
+	line-height: 24px;
+}
+
+/*--------------------end------------------------*/
+
+/*--------------------footer----------------------------*/
+
+footer{
+	border-bottom: 25px solid black;
+	padding: 50px 0;
+}
+
+footer h4{
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+
+footer .shops, footer .information, footer .custumer_service, footer .st, footer .stay_connected{
+	margin-bottom: 60px;
+}
+
+footer .shops li a, footer .information li a, footer .custumer_service li a{
+	font-size: 12px;
+	line-height: 24px;
+}
+
+footer .stay_connected li{
+	margin-right: 14px;
+}
+
+footer .stay_connected li a{
+	width: 20px;
+	height: 20px;
+	padding: 10px;
+}
+
+footer .stay_connected li a .demo-icon{
+	font-size: 20px;
+	line-height: 20px;
+}
+.subscribe form{
+	width: 360px;
+	height: 38px;
+}
+
+.subscribe input[type=email]{
+	font-size: 12px;
+	line-height: 30px;
+	height: 38px;
+	text-indent: 20px;
+}
+.subscribe input[type=submit]{
+	font-size:  12px;
+	line-height: 30px;
+	height: 34px;
+	width: 100px;
+	}
+
+footer .copy{
+	padding-top: 20px;
+}
+
+footer .copy:after{
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 8px solid #363636;
+}
+
+footer .copy p {
+	font-size:  10px;
+	line-height: 18px;
+}
+
+footer .copy ul{
+	border-spacing: 15px;
+}
+
+
+}
